@@ -2,7 +2,7 @@
 
 
 .body {
-    font-family: "Winky Sans", sans-serif;
+    font-family: "Lora", serif;
 color: #ffffff;
 max-width: 320px;
 padding: 0 16px;
@@ -35,3 +35,59 @@ img {
 
 
 /*header*/
+
+/*section Welcom*/
+
+.img {
+    padding: 120px 0 15px 0;
+    text-align: center;
+    align-items: center;
+}
+
+.hello {
+    font-weight: 700;
+    font-size: 25px;
+    color: black;
+}
+
+.text {
+    font-weight: 400;
+    font-size: 18px;
+    color: black;
+    padding: 10px 0 10px 0;
+}
+
+.li-icon {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+.li-button {
+    display: flex;
+    text-align: center;
+    justify-content: center;   
+}
+
+.button-open {
+    background-color: #7b2cbf; /* насыщенный фиолетовый */
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    font-size: 16px;
+    border-radius: 12px;
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(123, 44, 191, 0.4);
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.button-open:hover {
+    background-color: #9d4edd; /* светлее при наведении */
+    transform: translateY(-2px);
+  }
+
+  .button-open:active {
+    background-color: #5a189a; /* темнее при нажатии */
+    transform: translateY(1px);
+  }
